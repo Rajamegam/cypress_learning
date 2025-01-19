@@ -30,7 +30,7 @@ describe("Authentication", () => {
 
             })
     })
-    const token = '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'
+    const token = ''
     it("Bearer token", () => {
 
         cy.request({
@@ -52,8 +52,8 @@ describe("Authentication", () => {
             method: 'POST',
             url: 'https://api-m.sandbox.paypal.com/v1/oauth2/token',
             auth: {
-                username: 'AUv8rrc_P-EbP2E0mpb49BV7rFt3Usr-vdUZO8VGOnjRehGHBXkSzchr37SYF2GNdQFYSp72jh5QUhzG',
-                password: 'EMnAWe06ioGtouJs7gLYT9chK9-2jJ--7MKRXpI8FesmY_2Kp-d_7aCqff7M9moEJBvuXoBO4clKtY0v'
+                username: '',
+                password: ''
             },
             headers: {
                 'Content-Type': 'application/x-www-form-urlencoded'
